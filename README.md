@@ -1,5 +1,3 @@
-Thank you for your video Learn Redux Toolkit in 1 video with Project. 
-
 I worked through a Youtube video here: https://www.youtube.com/watch?v=A_vRvDAZuOo&t=940s
 
 The main topic of the video is the ReduxJS/Toolkit library. But the tutorial covers a broad survey of React skills. 
