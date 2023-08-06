@@ -32,10 +32,10 @@ const Product = () => {
     }
 
     const cards = products.map(product =>
-        <div className="col-md-3" style={{ marginBottom: "10px" }}>
-            <Card key={product.id} className="h-100" style={{ width: '18rem' }}>
+        <div key={product.id} className="col-md-3" style={{ marginBottom: "10px" }}>
+            <Card className="h-100" style={{ width: '18rem' }}>
                 <div className="text-center">
-                    <Card.Img variant="top" src={product.image} style={{ width: '100px', height: '130px' }} />
+                    <Card.Img variant="top" src={product.image} style={{ width: '100px', height: '130px', padding: '10px' }} />
                 </div>
                 <Card.Body>
                     <Card.Title>{product.title}</Card.Title>
